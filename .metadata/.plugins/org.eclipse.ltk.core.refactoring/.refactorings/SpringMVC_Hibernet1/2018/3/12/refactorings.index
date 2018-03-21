@@ -1,0 +1,7 @@
+1521540917106	Move 'view' to 'lib'
+1521540927640	Move 'view' to 'WEB-INF'
+1521541779277	Move 'springhibernat-servlet.xml' to 'META-INF'
+1521541890807	Delete element
+1521542223685	Move 'employeeform.jsp' to 'view'
+1521543502448	Delete element
+1521545080865	Rename resource 'springhibernat-servlet.xml'

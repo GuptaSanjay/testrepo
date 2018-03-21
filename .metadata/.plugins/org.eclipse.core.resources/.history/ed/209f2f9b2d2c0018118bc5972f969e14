@@ -1,0 +1,45 @@
+package com.spring.form.employee.bean;
+
+public class Employee {
+	private int id;
+	private String name;
+	private double dalary;
+	private String designation;
+	public Employee() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Employee(int id, String name, double dalary, String designation) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.dalary = dalary;
+		this.designation = designation;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public double getDalary() {
+		return dalary;
+	}
+	public void setDalary(double dalary) {
+		this.dalary = dalary;
+	}
+	public String getDesignation() {
+		return designation;
+	}
+	public void setDesignation(String designation) {
+		this.designation = designation;
+	}
+	
+
+}
