@@ -2,10 +2,20 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.springboot.mysql.mainappentry"/>
+			<item value="com.springboot.data"/>
+			<item value="com.springboot.one"/>
 		</list>
 		<list key="name">
+			<item value="SpringBoot_4"/>
+			<item value="SpringBoot_1"/>
+			<item value="SpringBoot_2"/>
 		</list>
 		<list key="artifactId">
+			<item value="SpringBoot_4"/>
+			<item value="SpringBoot_3"/>
+			<item value="SpringBoot_2"/>
+			<item value="SpringBoot_1"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -66,6 +76,9 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\681196\Documents\workspace-sts-3.9.0.RELEASE\SpringBoot_3"/>
+			<item value="C:\Users\681196\Documents\workspace-sts-3.9.0.RELEASE\SpringBoot_2"/>
+			<item value="C:\Users\681196\Documents\workspace-sts-3.9.0.RELEASE\SpringMVC_Hibernet1"/>
 			<item value="C:\Users\681196\Documents\workspace-sts-3.9.0.RELEASE\SpringMVC2"/>
 			<item value="C:\Users\681196\Documents\workspace-sts-3.9.0.RELEASE\SpringMVC"/>
 		</list>
@@ -80,13 +93,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="springmvc.springmvc"/>
 		</list>
 		<list key="groupId">
-			<item value="02springmvc"/>
 		</list>
 		<list key="artifactId">
-			<item value="02springmvc"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
