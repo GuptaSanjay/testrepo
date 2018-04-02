@@ -45,7 +45,7 @@ public class EmployeeController {
 		return new ModelAndView("success");
 	}
 	
-	@RequestMapping("/viewEmployee")
+	@RequestMapping("/getEmployee")
 	public String viewEmployee(Model model) {
 		List<Employee> list=employeeService.viewEmployees();
 		model.addAttribute("allEmployees", list);
@@ -58,7 +58,7 @@ public class EmployeeController {
 	
 		System.out.println("I can delete the employee with id: " + id);
 		employeeService.deleteEmployee(id);
-		return "redirect:/viewEmployee.html";
+		return "redirect:/getEmployee.html";
 }
 	
 	@RequestMapping(value = "/updateEmployee", method=RequestMethod.GET)

@@ -8,8 +8,8 @@
 </head>
 <body>
 
-<a href="employeeForm.html">Add Employee</a>
-	<a href="viewEmployee.html">View Employee</a>
+<a href="employeeform.html">Add Employee</a>
+	<a href="getEmployee.html">View Employee</a>
 	
 	<h1>Employee is deleted.</h1>
 </body>

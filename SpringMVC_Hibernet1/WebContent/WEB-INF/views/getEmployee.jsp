@@ -10,8 +10,8 @@
 <title>View All Employees</title>
 </head>
 <body>
-	<a href="employeeForm.html">Add Employee</a>
-	<a href="viewEmployee.html">View Employee</a>
+	<a href="employeeform.html">Add Employee</a>
+	<a href="getEmployee.html">View Employee</a>
 	<table border=1>
 		<tr>
 			<th>S.no</th>

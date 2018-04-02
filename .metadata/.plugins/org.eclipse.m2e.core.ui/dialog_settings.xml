@@ -2,16 +2,22 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.springboot.thymeleaf"/>
+			<item value="com.springboot.mysql"/>
 			<item value="com.springboot.mysql.mainappentry"/>
 			<item value="com.springboot.data"/>
 			<item value="com.springboot.one"/>
 		</list>
 		<list key="name">
+			<item value="SpringBootThymeleaf"/>
+			<item value="SpringBoot_5"/>
 			<item value="SpringBoot_4"/>
 			<item value="SpringBoot_1"/>
 			<item value="SpringBoot_2"/>
 		</list>
 		<list key="artifactId">
+			<item value="SpringBootThymeleaf"/>
+			<item value="SpringBoot_5"/>
 			<item value="SpringBoot_4"/>
 			<item value="SpringBoot_3"/>
 			<item value="SpringBoot_2"/>
@@ -76,6 +82,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\681196\Documents\workspace-sts-3.9.0.RELEASE\SpringBoot_5"/>
 			<item value="C:\Users\681196\Documents\workspace-sts-3.9.0.RELEASE\SpringBoot_3"/>
 			<item value="C:\Users\681196\Documents\workspace-sts-3.9.0.RELEASE\SpringBoot_2"/>
 			<item value="C:\Users\681196\Documents\workspace-sts-3.9.0.RELEASE\SpringMVC_Hibernet1"/>
