@@ -1,22 +1,30 @@
 package sampleBoot.Model;
 
+import java.io.Serializable;
 import java.util.Date;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 
  @Entity
- @Table(name="TaskManager")
-public class Task {
+ @Table(name="task_manager")
+public class Task implements Serializable {
 	 @Id
 	private int id;
+	 @Column(name="name")
 	private String name;
+	 @Column(name="description")
 	private String description;
+	 @Temporal(TemporalType.TIMESTAMP)
+	 @Column(name="dateCreated")
 	private Date dateCreated;
+	 @Column(name="finished")
 	private boolean finished;
 	public Task() {
-		super();
 		// TODO Auto-generated constructor stub
 	}
 	public Task(int id, String name, String description, Date dateCreated, boolean finished) {

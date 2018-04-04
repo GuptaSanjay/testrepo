@@ -79,10 +79,11 @@ public EmployeeEntity updateEmployee(Integer id) {
 	}
 	EmployeeEntity employeeEntity  = (EmployeeEntity) session.get(EmployeeEntity.class, id);
 	if(employeeEntity!=null) {
-		return employeeEntity;
+		System.out.println("can be updated");
 	}else {
 		System.out.println("Employee with id " + id + " not able to update!!!");
 	}
+	session.update(employeeEntity);
 	return employeeEntity;
 	
 }

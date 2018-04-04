@@ -12,6 +12,7 @@
 <body>
 	<a href="employeeform.html">Add Employee</a>
 	<a href="getEmployee.html">View Employee</a>
+
 	<table border=1>
 		<tr>
 			<th>S.no</th>

@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="SpringBootStrapJPA"/>
 			<item value="com.springboot.thymeleaf"/>
 			<item value="com.springboot.mysql"/>
 			<item value="com.springboot.mysql.mainappentry"/>
@@ -9,6 +10,7 @@
 			<item value="com.springboot.one"/>
 		</list>
 		<list key="name">
+			<item value="SampleBoot"/>
 			<item value="SpringBootThymeleaf"/>
 			<item value="SpringBoot_5"/>
 			<item value="SpringBoot_4"/>
@@ -16,6 +18,7 @@
 			<item value="SpringBoot_2"/>
 		</list>
 		<list key="artifactId">
+			<item value="SampleBoot"/>
 			<item value="SpringBootThymeleaf"/>
 			<item value="SpringBoot_5"/>
 			<item value="SpringBoot_4"/>

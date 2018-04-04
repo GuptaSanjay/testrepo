@@ -2,6 +2,7 @@
 <aop-reference-model>
 <aop-project name="001MavenSpringCore"/>
 <aop-project name="SpringBoot_5"/>
+<aop-project name="SampleBoot"/>
 <aop-project name="SpringBootThymeleaf"/>
 <aop-project name="SpringMVC_Hibernet1">
 <aspect-definition advice-class-name="org.springframework.transaction.interceptor.TransactionInterceptor" advice-method-name="invoke" advice-method-parameter-types="org.aopalliance.intercept.MethodInvocation" advice-type="AROUND" aspect-end-line-number="53" aspect-name="org.springframework.transaction.interceptor.TransactionInterceptor#SpringMVC_Hibernet1#WebContent/WEB-INF/springhibernat_1-servlet.xml#53" aspect-start-line-number="53" factory-id="org.springframework.ide.eclipse.aop.core.javaAdvisorDefinitionElementFactory" file="/SpringMVC_Hibernet1/WebContent/WEB-INF/springhibernat_1-servlet.xml" pointcut-expression="(@within(org.springframework.transaction.annotation.Transactional) || @annotation(org.springframework.transaction.annotation.Transactional)) &amp;&amp; execution(* *..*(..))" proxy-target-class="false">
